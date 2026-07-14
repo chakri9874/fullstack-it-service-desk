@@ -1,0 +1,32 @@
+# Java / Spring Boot
+backend/target/
+*.class
+*.jar
+*.war
+*.log
+
+# Local Spring config with real credentials
+backend/src/main/resources/application-local.properties
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+
+# Environment files
+.env
+*.env
+
+# IDE files
+.idea/
+.vscode/
+.vs/
+.cursor/
+*.iml
+
+# Cursor local files
+.cursorindexingignore
+.cursorignore
+
+# OS files
+.DS_Store
+Thumbs.db
